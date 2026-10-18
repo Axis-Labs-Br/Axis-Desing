@@ -125,9 +125,7 @@ Os testes de navegador usam Chrome instalado no caminho padrão do Windows, quan
 
 Veja [docs/VALIDATION.md](docs/VALIDATION.md) para a execução verificada e [docs/screenshots](docs/screenshots) para as capturas.
 
-## Engenharia reversa e estrutura
-
-A ferramenta REA e a CLI `rea-agents@6.5.0` foram usadas durante a investigação local, com capturas de navegador e análise estática. Os artefatos temporários dessa ferramenta não são necessários para instalar ou executar o AxisDesign. Evidências, fontes e limites da investigação estão em [research/REA.md](research/REA.md). A implementação do AxisDesign e seus modelos são próprios; nenhum código privado ou backend de terceiros foi recuperado.
+## Estrutura do projeto
 
 | Arquivo                   | Responsabilidade                                                   |
 | ------------------------- | ------------------------------------------------------------------ |
