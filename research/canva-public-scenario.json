@@ -1,0 +1,7 @@
+{
+  "browser": {"mode": "launch", "executable_path": "C:/Program Files/Google/Chrome/Application/chrome.exe", "headless": true},
+  "start_url": {"url": "https://www.canva.com/features/"},
+  "actions": [{"step_id": "public-features-settle", "action": "wait_for_timeout", "duration_ms": 6000}],
+  "environment": {"locale": "pt-BR", "viewport": {"width": 1440, "height": 1000}},
+  "capture": {"at_end": ["url", "dom", "accessibility", "screenshot"], "events": ["network", "page-errors"]}
+}

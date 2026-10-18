@@ -1,0 +1,222 @@
+[
+  {
+    "path": "research/canva-docs-accessibility.txt",
+    "sha256": "bfddb3a984b3e9546ad11eca148827b1821c5de18d52e2f02782a072d31c9f10",
+    "bytes": 17621
+  },
+  {
+    "path": "research/canva-docs-capture.json",
+    "sha256": "e75e337a5ad52328ce85d3edb2c094e42648046bbbe34d8b31370862914facb6",
+    "bytes": 406474
+  },
+  {
+    "path": "research/canva-docs-capture.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "research/canva-docs-scenario.json",
+    "sha256": "870a21ba193bf88dc7743ad26c44fe54dbcfa5ad6724f59c632f14e3e611f929",
+    "bytes": 465
+  },
+  {
+    "path": "research/canva-docs-static-analysis.json",
+    "sha256": "5a318916fda46ea742f081564ddd39b8bdf2276fe8766d429ba7275ff3862ccc",
+    "bytes": 7427348
+  },
+  {
+    "path": "research/canva-docs-static-analysis.stderr.txt",
+    "sha256": "d0372ca7c0b17a32143f5427a5b2616c88e3859baa3c26fb4f9bc1341209d1e3",
+    "bytes": 2454
+  },
+  {
+    "path": "research/canva-docs.png",
+    "sha256": "2eb83a87952da3c1b5d323e1fffe689adaff914e1ae8f42df00978b939bddc3d",
+    "bytes": 287002
+  },
+  {
+    "path": "research/canva-public-capture.json",
+    "sha256": "3512d2195f23ff8fbfea969ef38ad87d84449fe3a782ee2cf5d194b0b0bb1371",
+    "bytes": 1347331
+  },
+  {
+    "path": "research/canva-public-capture.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "research/canva-public-extract.log",
+    "sha256": "72d1356b30d53f934b09a2958ec6676da156e34a13c7b40406fbd840a49ebee6",
+    "bytes": 8920
+  },
+  {
+    "path": "research/canva-public-scenario.json",
+    "sha256": "ff9dd0e1c6716e5a1f0ebf8840b45c60d7740a14200539226712b6b0ee55169b",
+    "bytes": 488
+  },
+  {
+    "path": "research/canva-public-summary.json",
+    "sha256": "77411e8781e810bc85bd3ce0432a8c515895027474eed9228aef3b2b2ad31233",
+    "bytes": 781739
+  },
+  {
+    "path": "research/canva-public.png",
+    "sha256": "8928108d7f7b1e06ef82c9f9e850c7aac005140b0892dd5605a4a36a1b414b8b",
+    "bytes": 395146
+  },
+  {
+    "path": "research/rea-doctor.json",
+    "sha256": "13062627c64bc0f9d0c4df944dfd59235eb79aab32b97d667c4eb224719cc8e1",
+    "bytes": 17358
+  },
+  {
+    "path": "research/rea-doctor.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "research/rea-package-dist.json",
+    "sha256": "f842249f084489499f8367a859c94e60809127ab89f720986a648df7c5c755b8",
+    "bytes": 896
+  },
+  {
+    "path": "research/REA.md",
+    "sha256": "7f95106cb8b788e38dd2286ad95baac5e5a700572ad09f446a6107bbd28ad00f",
+    "bytes": 9457
+  },
+  {
+    "path": "research/canva-docs-bundles/design-guidelines.js",
+    "sha256": "1f4015181913293ccf929758e905e3c8d11215abd63b06ecfab2ad01617fc01c",
+    "bytes": 12159
+  },
+  {
+    "path": "research/canva-docs-bundles/exporting-designs.js",
+    "sha256": "7d4fe232eb67d0a6a3764a51746d51733c3a0ef0536fdaf000a7dc62a31087a9",
+    "bytes": 21174
+  },
+  {
+    "path": "research/public-artifacts/creating-text.html",
+    "sha256": "19265a15a80fec927ac2277593740eadd32510ade4a23dd5ef3a379f40a02e05",
+    "bytes": 230569
+  },
+  {
+    "path": "research/public-artifacts/creating-text.txt",
+    "sha256": "20787a966323ee6c61ea072f990b13e4b8ebad488320ec0ff1ba7add27cbd8db",
+    "bytes": 15247
+  },
+  {
+    "path": "research/public-artifacts/design-editing.html",
+    "sha256": "5ea5a35113c50e67ab849acf8bf07c0e81312966091e00144ff6a5970a4f5672",
+    "bytes": 763119
+  },
+  {
+    "path": "research/public-artifacts/design-editing.txt",
+    "sha256": "c904653d68d046bfbe0aa421586c957ada4b9bb2dbbc402d1d48e3ee900a1d22",
+    "bytes": 52594
+  },
+  {
+    "path": "research/public-artifacts/design-elements.html",
+    "sha256": "fef6068a1106c610883b341e563861fb49670de64c5d26bad03bde96ae2d7075",
+    "bytes": 21647
+  },
+  {
+    "path": "research/public-artifacts/design-elements.txt",
+    "sha256": "f8a18885da9695726cf8e645b6b21d254b9c8a012e20f44d92501976e309260b",
+    "bytes": 403
+  },
+  {
+    "path": "research/public-artifacts/design-guidelines-colors.html",
+    "sha256": "3dd18a30b8c98dae52b3519e327a6781091006f04557f8a4c0a87088afd27eb8",
+    "bytes": 88909
+  },
+  {
+    "path": "research/public-artifacts/design-guidelines-colors.txt",
+    "sha256": "08b4113f0b0ca72d2d0864e97c379c9a52dfbdb1fa9736d46fb8aba1dbae4f9a",
+    "bytes": 5006
+  },
+  {
+    "path": "research/public-artifacts/design-guidelines-layout.html",
+    "sha256": "bb55c91e94de15b813abeae688bea07230f52eade37bead11b249f941bc6d872",
+    "bytes": 90111
+  },
+  {
+    "path": "research/public-artifacts/design-guidelines-layout.txt",
+    "sha256": "35ef6f707cc88095d31068b5fea0ba2220fb04ec6f1055f64643ca597366dae5",
+    "bytes": 5970
+  },
+  {
+    "path": "research/public-artifacts/design-guidelines-spacing.html",
+    "sha256": "b0a0549667f69a6a225c3334e7d7608a75325defaee98a0bf9f2e1dd2f557007",
+    "bytes": 88193
+  },
+  {
+    "path": "research/public-artifacts/design-guidelines-spacing.txt",
+    "sha256": "33e4ad9abefbbe38cca136dba31aff7feb0ea84305dd9e16779056b36feadeab",
+    "bytes": 4335
+  },
+  {
+    "path": "research/public-artifacts/design-guidelines.html",
+    "sha256": "aeb0bdcfc2c7e2874d38f4ca971afda08c3007bf1d3fa52869c35cd9a96a240f",
+    "bytes": 85330
+  },
+  {
+    "path": "research/public-artifacts/design-guidelines.txt",
+    "sha256": "d9d65fb75291b4c2f6f176097015ad9c6f64b67aa13bcbb311485534737a67c2",
+    "bytes": 4296
+  },
+  {
+    "path": "research/public-artifacts/exporting-designs.html",
+    "sha256": "04bf19cf7308f19b91c12e92351b0f2684ddd3a0e3d81692bcf2d662b58182f7",
+    "bytes": 130020
+  },
+  {
+    "path": "research/public-artifacts/exporting-designs.txt",
+    "sha256": "ac813a7eebf16a322b84ac43d8720f583fc0fcf14f3f124ab9981a37670e31a8",
+    "bytes": 9297
+  },
+  {
+    "path": "research/public-artifacts/features.html",
+    "sha256": "7a102f1b48c67b414eeb915477b7ca0b4c2b3ba3f06325e8371c24ddc34ac58d",
+    "bytes": 754805
+  },
+  {
+    "path": "research/public-artifacts/grouping-elements.html",
+    "sha256": "0c6651c881686ff806ebe72cc50d70b2b0559c6abc44bd6e76496a1b9b07ba82",
+    "bytes": 122862
+  },
+  {
+    "path": "research/public-artifacts/grouping-elements.txt",
+    "sha256": "ac0fee487c6483d032d5547dfea53fb2bcde9d49141819b4a15ec2a0b7858d27",
+    "bytes": 6501
+  },
+  {
+    "path": "research/public-artifacts/official-editor-layout-reference.png",
+    "sha256": "722183fd96a237fcb81050cb122f0cdb6bb8871a023eccf0b06558ee600b0ff6",
+    "bytes": 226522
+  },
+  {
+    "path": "research/public-artifacts/positioning-elements.html",
+    "sha256": "afedc64570757f5ad45f65442fb61e9efe56cbe100ef5a698251cf2a936c2f28",
+    "bytes": 205913
+  },
+  {
+    "path": "research/public-artifacts/positioning-elements.txt",
+    "sha256": "d1ce9cbc6806d46ede331ab2e0d4511b7d6bfc51bbd08e716b64aa4b95f09775",
+    "bytes": 13201
+  },
+  {
+    "path": "research/public-artifacts/provenance.json",
+    "sha256": "c2e8ebb7f493c7605dc481165c4a920e8d539daac659c09af5c54fb8a73aaf77",
+    "bytes": 6745
+  },
+  {
+    "path": "research/public-artifacts/selection.html",
+    "sha256": "a86645f3eab866b99ebca62a8b4d460a9a5e4288d737fc2b13d814be3ae4276c",
+    "bytes": 463902
+  },
+  {
+    "path": "research/public-artifacts/selection.txt",
+    "sha256": "beac9be1a5490c4c36f3051878f142b6ee93e0f90a3ab898eae91eace07cbbca",
+    "bytes": 29690
+  }
+]

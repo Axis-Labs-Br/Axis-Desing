@@ -1,0 +1,394 @@
+[
+  {
+    "family": "Inter",
+    "weight": 400,
+    "style": "normal",
+    "url": "/fonts/inter-latin-400-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/inter@5.3.0/latin-400-normal.woff2",
+    "license": "/licenses/fonts/inter-LICENSE.txt"
+  },
+  {
+    "family": "Inter",
+    "weight": 700,
+    "style": "normal",
+    "url": "/fonts/inter-latin-700-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/inter@5.3.0/latin-700-normal.woff2",
+    "license": "/licenses/fonts/inter-LICENSE.txt"
+  },
+  {
+    "family": "Inter",
+    "weight": 400,
+    "style": "italic",
+    "url": "/fonts/inter-latin-400-italic.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/inter@5.3.0/latin-400-italic.woff2",
+    "license": "/licenses/fonts/inter-LICENSE.txt"
+  },
+  {
+    "family": "Inter",
+    "weight": 700,
+    "style": "italic",
+    "url": "/fonts/inter-latin-700-italic.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/inter@5.3.0/latin-700-italic.woff2",
+    "license": "/licenses/fonts/inter-LICENSE.txt"
+  },
+  {
+    "family": "Montserrat",
+    "weight": 400,
+    "style": "normal",
+    "url": "/fonts/montserrat-latin-400-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/montserrat@5.3.0/latin-400-normal.woff2",
+    "license": "/licenses/fonts/montserrat-LICENSE.txt"
+  },
+  {
+    "family": "Montserrat",
+    "weight": 700,
+    "style": "normal",
+    "url": "/fonts/montserrat-latin-700-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/montserrat@5.3.0/latin-700-normal.woff2",
+    "license": "/licenses/fonts/montserrat-LICENSE.txt"
+  },
+  {
+    "family": "Montserrat",
+    "weight": 400,
+    "style": "italic",
+    "url": "/fonts/montserrat-latin-400-italic.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/montserrat@5.3.0/latin-400-italic.woff2",
+    "license": "/licenses/fonts/montserrat-LICENSE.txt"
+  },
+  {
+    "family": "Montserrat",
+    "weight": 700,
+    "style": "italic",
+    "url": "/fonts/montserrat-latin-700-italic.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/montserrat@5.3.0/latin-700-italic.woff2",
+    "license": "/licenses/fonts/montserrat-LICENSE.txt"
+  },
+  {
+    "family": "Poppins",
+    "weight": 400,
+    "style": "normal",
+    "url": "/fonts/poppins-latin-400-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/poppins@5.3.0/latin-400-normal.woff2",
+    "license": "/licenses/fonts/poppins-LICENSE.txt"
+  },
+  {
+    "family": "Poppins",
+    "weight": 700,
+    "style": "normal",
+    "url": "/fonts/poppins-latin-700-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/poppins@5.3.0/latin-700-normal.woff2",
+    "license": "/licenses/fonts/poppins-LICENSE.txt"
+  },
+  {
+    "family": "Poppins",
+    "weight": 400,
+    "style": "italic",
+    "url": "/fonts/poppins-latin-400-italic.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/poppins@5.3.0/latin-400-italic.woff2",
+    "license": "/licenses/fonts/poppins-LICENSE.txt"
+  },
+  {
+    "family": "Poppins",
+    "weight": 700,
+    "style": "italic",
+    "url": "/fonts/poppins-latin-700-italic.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/poppins@5.3.0/latin-700-italic.woff2",
+    "license": "/licenses/fonts/poppins-LICENSE.txt"
+  },
+  {
+    "family": "Playfair Display",
+    "weight": 400,
+    "style": "normal",
+    "url": "/fonts/playfair-display-latin-400-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/playfair-display@5.3.0/latin-400-normal.woff2",
+    "license": "/licenses/fonts/playfair-display-LICENSE.txt"
+  },
+  {
+    "family": "Playfair Display",
+    "weight": 700,
+    "style": "normal",
+    "url": "/fonts/playfair-display-latin-700-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/playfair-display@5.3.0/latin-700-normal.woff2",
+    "license": "/licenses/fonts/playfair-display-LICENSE.txt"
+  },
+  {
+    "family": "Playfair Display",
+    "weight": 400,
+    "style": "italic",
+    "url": "/fonts/playfair-display-latin-400-italic.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/playfair-display@5.3.0/latin-400-italic.woff2",
+    "license": "/licenses/fonts/playfair-display-LICENSE.txt"
+  },
+  {
+    "family": "Playfair Display",
+    "weight": 700,
+    "style": "italic",
+    "url": "/fonts/playfair-display-latin-700-italic.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/playfair-display@5.3.0/latin-700-italic.woff2",
+    "license": "/licenses/fonts/playfair-display-LICENSE.txt"
+  },
+  {
+    "family": "Roboto",
+    "weight": 400,
+    "style": "normal",
+    "url": "/fonts/roboto-latin-400-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/roboto@5.3.0/latin-400-normal.woff2",
+    "license": "/licenses/fonts/roboto-LICENSE.txt"
+  },
+  {
+    "family": "Roboto",
+    "weight": 700,
+    "style": "normal",
+    "url": "/fonts/roboto-latin-700-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/roboto@5.3.0/latin-700-normal.woff2",
+    "license": "/licenses/fonts/roboto-LICENSE.txt"
+  },
+  {
+    "family": "Roboto",
+    "weight": 400,
+    "style": "italic",
+    "url": "/fonts/roboto-latin-400-italic.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/roboto@5.3.0/latin-400-italic.woff2",
+    "license": "/licenses/fonts/roboto-LICENSE.txt"
+  },
+  {
+    "family": "Roboto",
+    "weight": 700,
+    "style": "italic",
+    "url": "/fonts/roboto-latin-700-italic.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/roboto@5.3.0/latin-700-italic.woff2",
+    "license": "/licenses/fonts/roboto-LICENSE.txt"
+  },
+  {
+    "family": "Lato",
+    "weight": 400,
+    "style": "normal",
+    "url": "/fonts/lato-latin-400-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/lato@5.3.0/latin-400-normal.woff2",
+    "license": "/licenses/fonts/lato-LICENSE.txt"
+  },
+  {
+    "family": "Lato",
+    "weight": 700,
+    "style": "normal",
+    "url": "/fonts/lato-latin-700-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/lato@5.3.0/latin-700-normal.woff2",
+    "license": "/licenses/fonts/lato-LICENSE.txt"
+  },
+  {
+    "family": "Lato",
+    "weight": 400,
+    "style": "italic",
+    "url": "/fonts/lato-latin-400-italic.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/lato@5.3.0/latin-400-italic.woff2",
+    "license": "/licenses/fonts/lato-LICENSE.txt"
+  },
+  {
+    "family": "Lato",
+    "weight": 700,
+    "style": "italic",
+    "url": "/fonts/lato-latin-700-italic.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/lato@5.3.0/latin-700-italic.woff2",
+    "license": "/licenses/fonts/lato-LICENSE.txt"
+  },
+  {
+    "family": "Oswald",
+    "weight": 400,
+    "style": "normal",
+    "url": "/fonts/oswald-latin-400-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/oswald@5.3.0/latin-400-normal.woff2",
+    "license": "/licenses/fonts/oswald-LICENSE.txt"
+  },
+  {
+    "family": "Oswald",
+    "weight": 700,
+    "style": "normal",
+    "url": "/fonts/oswald-latin-700-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/oswald@5.3.0/latin-700-normal.woff2",
+    "license": "/licenses/fonts/oswald-LICENSE.txt"
+  },
+  {
+    "family": "Nunito",
+    "weight": 400,
+    "style": "normal",
+    "url": "/fonts/nunito-latin-400-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/nunito@5.3.0/latin-400-normal.woff2",
+    "license": "/licenses/fonts/nunito-LICENSE.txt"
+  },
+  {
+    "family": "Nunito",
+    "weight": 700,
+    "style": "normal",
+    "url": "/fonts/nunito-latin-700-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/nunito@5.3.0/latin-700-normal.woff2",
+    "license": "/licenses/fonts/nunito-LICENSE.txt"
+  },
+  {
+    "family": "Nunito",
+    "weight": 400,
+    "style": "italic",
+    "url": "/fonts/nunito-latin-400-italic.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/nunito@5.3.0/latin-400-italic.woff2",
+    "license": "/licenses/fonts/nunito-LICENSE.txt"
+  },
+  {
+    "family": "Nunito",
+    "weight": 700,
+    "style": "italic",
+    "url": "/fonts/nunito-latin-700-italic.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/nunito@5.3.0/latin-700-italic.woff2",
+    "license": "/licenses/fonts/nunito-LICENSE.txt"
+  },
+  {
+    "family": "Raleway",
+    "weight": 400,
+    "style": "normal",
+    "url": "/fonts/raleway-latin-400-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/raleway@5.3.0/latin-400-normal.woff2",
+    "license": "/licenses/fonts/raleway-LICENSE.txt"
+  },
+  {
+    "family": "Raleway",
+    "weight": 700,
+    "style": "normal",
+    "url": "/fonts/raleway-latin-700-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/raleway@5.3.0/latin-700-normal.woff2",
+    "license": "/licenses/fonts/raleway-LICENSE.txt"
+  },
+  {
+    "family": "Raleway",
+    "weight": 400,
+    "style": "italic",
+    "url": "/fonts/raleway-latin-400-italic.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/raleway@5.3.0/latin-400-italic.woff2",
+    "license": "/licenses/fonts/raleway-LICENSE.txt"
+  },
+  {
+    "family": "Raleway",
+    "weight": 700,
+    "style": "italic",
+    "url": "/fonts/raleway-latin-700-italic.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/raleway@5.3.0/latin-700-italic.woff2",
+    "license": "/licenses/fonts/raleway-LICENSE.txt"
+  },
+  {
+    "family": "Merriweather",
+    "weight": 400,
+    "style": "normal",
+    "url": "/fonts/merriweather-latin-400-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/merriweather@5.3.0/latin-400-normal.woff2",
+    "license": "/licenses/fonts/merriweather-LICENSE.txt"
+  },
+  {
+    "family": "Merriweather",
+    "weight": 700,
+    "style": "normal",
+    "url": "/fonts/merriweather-latin-700-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/merriweather@5.3.0/latin-700-normal.woff2",
+    "license": "/licenses/fonts/merriweather-LICENSE.txt"
+  },
+  {
+    "family": "Merriweather",
+    "weight": 400,
+    "style": "italic",
+    "url": "/fonts/merriweather-latin-400-italic.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/merriweather@5.3.0/latin-400-italic.woff2",
+    "license": "/licenses/fonts/merriweather-LICENSE.txt"
+  },
+  {
+    "family": "Merriweather",
+    "weight": 700,
+    "style": "italic",
+    "url": "/fonts/merriweather-latin-700-italic.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/merriweather@5.3.0/latin-700-italic.woff2",
+    "license": "/licenses/fonts/merriweather-LICENSE.txt"
+  },
+  {
+    "family": "Bebas Neue",
+    "weight": 400,
+    "style": "normal",
+    "url": "/fonts/bebas-neue-latin-400-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/bebas-neue@5.3.0/latin-400-normal.woff2",
+    "license": "/licenses/fonts/bebas-neue-LICENSE.txt"
+  },
+  {
+    "family": "Dancing Script",
+    "weight": 400,
+    "style": "normal",
+    "url": "/fonts/dancing-script-latin-400-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/dancing-script@5.3.0/latin-400-normal.woff2",
+    "license": "/licenses/fonts/dancing-script-LICENSE.txt"
+  },
+  {
+    "family": "Dancing Script",
+    "weight": 700,
+    "style": "normal",
+    "url": "/fonts/dancing-script-latin-700-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/dancing-script@5.3.0/latin-700-normal.woff2",
+    "license": "/licenses/fonts/dancing-script-LICENSE.txt"
+  },
+  {
+    "family": "Pacifico",
+    "weight": 400,
+    "style": "normal",
+    "url": "/fonts/pacifico-latin-400-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/pacifico@5.3.0/latin-400-normal.woff2",
+    "license": "/licenses/fonts/pacifico-LICENSE.txt"
+  },
+  {
+    "family": "Anton",
+    "weight": 400,
+    "style": "normal",
+    "url": "/fonts/anton-latin-400-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/anton@5.3.0/latin-400-normal.woff2",
+    "license": "/licenses/fonts/anton-LICENSE.txt"
+  },
+  {
+    "family": "Lora",
+    "weight": 400,
+    "style": "normal",
+    "url": "/fonts/lora-latin-400-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/lora@5.3.0/latin-400-normal.woff2",
+    "license": "/licenses/fonts/lora-LICENSE.txt"
+  },
+  {
+    "family": "Lora",
+    "weight": 700,
+    "style": "normal",
+    "url": "/fonts/lora-latin-700-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/lora@5.3.0/latin-700-normal.woff2",
+    "license": "/licenses/fonts/lora-LICENSE.txt"
+  },
+  {
+    "family": "Lora",
+    "weight": 400,
+    "style": "italic",
+    "url": "/fonts/lora-latin-400-italic.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/lora@5.3.0/latin-400-italic.woff2",
+    "license": "/licenses/fonts/lora-LICENSE.txt"
+  },
+  {
+    "family": "Lora",
+    "weight": 700,
+    "style": "italic",
+    "url": "/fonts/lora-latin-700-italic.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/lora@5.3.0/latin-700-italic.woff2",
+    "license": "/licenses/fonts/lora-LICENSE.txt"
+  },
+  {
+    "family": "Space Grotesk",
+    "weight": 400,
+    "style": "normal",
+    "url": "/fonts/space-grotesk-latin-400-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/space-grotesk@5.3.0/latin-400-normal.woff2",
+    "license": "/licenses/fonts/space-grotesk-LICENSE.txt"
+  },
+  {
+    "family": "Space Grotesk",
+    "weight": 700,
+    "style": "normal",
+    "url": "/fonts/space-grotesk-latin-700-normal.woff2",
+    "source": "https://cdn.jsdelivr.net/fontsource/fonts/space-grotesk@5.3.0/latin-700-normal.woff2",
+    "license": "/licenses/fonts/space-grotesk-LICENSE.txt"
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "name": "features",
+    "url": "https://www.canva.com/features/",
+    "finalUrl": "https://www.canva.com/features/",
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "retrievedAt": "2026-10-17T22:42:16.186Z",
+    "bytes": 754805,
+    "sha256": "7a102f1b48c67b414eeb915477b7ca0b4c2b3ba3f06325e8371c24ddc34ac58d",
+    "file": "research/public-artifacts/features.html"
+  },
+  {
+    "name": "design-guidelines",
+    "url": "https://www.canva.dev/docs/apps/design-guidelines/",
+    "finalUrl": "https://www.canva.dev/docs/apps/design-guidelines/",
+    "status": 200,
+    "contentType": "text/html",
+    "retrievedAt": "2026-10-17T22:42:16.621Z",
+    "bytes": 85330,
+    "sha256": "aeb0bdcfc2c7e2874d38f4ca971afda08c3007bf1d3fa52869c35cd9a96a240f",
+    "file": "research/public-artifacts/design-guidelines.html"
+  },
+  {
+    "name": "design-elements",
+    "url": "https://www.canva.dev/docs/apps/design-elements/",
+    "finalUrl": "https://www.canva.dev/docs/apps/design-elements/",
+    "status": 404,
+    "contentType": "text/html",
+    "retrievedAt": "2026-10-17T22:42:16.843Z",
+    "bytes": 21647,
+    "sha256": "fef6068a1106c610883b341e563861fb49670de64c5d26bad03bde96ae2d7075",
+    "file": "research/public-artifacts/design-elements.html"
+  },
+  {
+    "name": "exporting-designs",
+    "url": "https://www.canva.dev/docs/apps/exporting-designs/",
+    "finalUrl": "https://www.canva.dev/docs/apps/exporting-designs/",
+    "status": 200,
+    "contentType": "text/html",
+    "retrievedAt": "2026-10-17T22:42:16.915Z",
+    "bytes": 130020,
+    "sha256": "04bf19cf7308f19b91c12e92351b0f2684ddd3a0e3d81692bcf2d662b58182f7",
+    "file": "research/public-artifacts/exporting-designs.html"
+  },
+  {
+    "name": "design-editing",
+    "url": "https://www.canva.dev/docs/apps/design-editing/",
+    "finalUrl": "https://www.canva.dev/docs/apps/design-editing/",
+    "status": 200,
+    "contentType": "text/html",
+    "retrievedAt": "2026-10-17T22:42:42.155Z",
+    "bytes": 763119,
+    "sha256": "5ea5a35113c50e67ab849acf8bf07c0e81312966091e00144ff6a5970a4f5672",
+    "file": "research/public-artifacts/design-editing.html"
+  },
+  {
+    "name": "selection",
+    "url": "https://www.canva.dev/docs/apps/selection/",
+    "finalUrl": "https://www.canva.dev/docs/apps/selection/",
+    "status": 200,
+    "contentType": "text/html",
+    "retrievedAt": "2026-10-17T22:42:42.217Z",
+    "bytes": 463902,
+    "sha256": "a86645f3eab866b99ebca62a8b4d460a9a5e4288d737fc2b13d814be3ae4276c",
+    "file": "research/public-artifacts/selection.html"
+  },
+  {
+    "name": "positioning-elements",
+    "url": "https://www.canva.dev/docs/apps/positioning-elements/",
+    "finalUrl": "https://www.canva.dev/docs/apps/positioning-elements/",
+    "status": 200,
+    "contentType": "text/html",
+    "retrievedAt": "2026-10-17T22:42:42.714Z",
+    "bytes": 205913,
+    "sha256": "afedc64570757f5ad45f65442fb61e9efe56cbe100ef5a698251cf2a936c2f28",
+    "file": "research/public-artifacts/positioning-elements.html"
+  },
+  {
+    "name": "grouping-elements",
+    "url": "https://www.canva.dev/docs/apps/grouping-elements/",
+    "finalUrl": "https://www.canva.dev/docs/apps/grouping-elements/",
+    "status": 200,
+    "contentType": "text/html",
+    "retrievedAt": "2026-10-17T22:42:43.008Z",
+    "bytes": 122862,
+    "sha256": "0c6651c881686ff806ebe72cc50d70b2b0559c6abc44bd6e76496a1b9b07ba82",
+    "file": "research/public-artifacts/grouping-elements.html"
+  },
+  {
+    "name": "creating-text",
+    "url": "https://www.canva.dev/docs/apps/creating-text/",
+    "finalUrl": "https://www.canva.dev/docs/apps/creating-text/",
+    "status": 200,
+    "contentType": "text/html",
+    "retrievedAt": "2026-10-17T22:42:43.394Z",
+    "bytes": 230569,
+    "sha256": "19265a15a80fec927ac2277593740eadd32510ade4a23dd5ef3a379f40a02e05",
+    "file": "research/public-artifacts/creating-text.html"
+  },
+  {
+    "name": "design-guidelines-layout",
+    "url": "https://www.canva.dev/docs/apps/design-guidelines/layout/",
+    "finalUrl": "https://www.canva.dev/docs/apps/design-guidelines/layout/",
+    "status": 200,
+    "contentType": "text/html",
+    "retrievedAt": "2026-10-17T22:42:43.690Z",
+    "bytes": 90111,
+    "sha256": "bb55c91e94de15b813abeae688bea07230f52eade37bead11b249f941bc6d872",
+    "file": "research/public-artifacts/design-guidelines-layout.html"
+  },
+  {
+    "name": "design-guidelines-spacing",
+    "url": "https://www.canva.dev/docs/apps/design-guidelines/spacing/",
+    "finalUrl": "https://www.canva.dev/docs/apps/design-guidelines/spacing/",
+    "status": 200,
+    "contentType": "text/html",
+    "retrievedAt": "2026-10-17T22:42:44.016Z",
+    "bytes": 88193,
+    "sha256": "b0a0549667f69a6a225c3334e7d7608a75325defaee98a0bf9f2e1dd2f557007",
+    "file": "research/public-artifacts/design-guidelines-spacing.html"
+  },
+  {
+    "name": "design-guidelines-colors",
+    "url": "https://www.canva.dev/docs/apps/design-guidelines/colors/",
+    "finalUrl": "https://www.canva.dev/docs/apps/design-guidelines/colors/",
+    "status": 200,
+    "contentType": "text/html",
+    "retrievedAt": "2026-10-17T22:42:44.286Z",
+    "bytes": 88909,
+    "sha256": "3dd18a30b8c98dae52b3519e327a6781091006f04557f8a4c0a87088afd27eb8",
+    "file": "research/public-artifacts/design-guidelines-colors.html"
+  },
+  {
+    "name": "design-guidelines-bundle",
+    "url": "https://www.canva.dev/_next/static/chunks/pages/docs/apps/design-guidelines-c6a68c3e900f8fb6.js",
+    "finalUrl": "https://www.canva.dev/_next/static/chunks/pages/docs/apps/design-guidelines-c6a68c3e900f8fb6.js",
+    "status": 200,
+    "retrievedAt": "2026-10-17T22:42:44.359Z",
+    "bytes": 12159,
+    "sha256": "1f4015181913293ccf929758e905e3c8d11215abd63b06ecfab2ad01617fc01c",
+    "file": "research/canva-docs-bundles/design-guidelines.js"
+  },
+  {
+    "name": "exporting-designs-bundle",
+    "url": "https://www.canva.dev/_next/static/chunks/pages/docs/apps/exporting-designs-3afa8b61fca3dbee.js",
+    "finalUrl": "https://www.canva.dev/_next/static/chunks/pages/docs/apps/exporting-designs-3afa8b61fca3dbee.js",
+    "status": 200,
+    "retrievedAt": "2026-10-17T22:42:44.430Z",
+    "bytes": 21174,
+    "sha256": "7d4fe232eb67d0a6a3764a51746d51733c3a0ef0536fdaf000a7dc62a31087a9",
+    "file": "research/canva-docs-bundles/exporting-designs.js"
+  },
+  {
+    "name": "official-editor-layout-reference",
+    "url": "https://www.canva.dev/_next/static/media/hero.58c4d7aa.png",
+    "sourcePage": "https://www.canva.dev/docs/apps/design-guidelines/layout/",
+    "status": 200,
+    "bytes": 226522,
+    "sha256": "722183fd96a237fcb81050cb122f0cdb6bb8871a023eccf0b06558ee600b0ff6",
+    "file": "research/public-artifacts/official-editor-layout-reference.png",
+    "retrievedAt": "2026-10-17T22:43:40.598Z"
+  }
+]

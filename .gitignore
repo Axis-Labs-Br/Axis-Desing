@@ -1,0 +1,13 @@
+node_modules/
+.env*
+!.env.example
+.axis-data/
+playwright/.auth/
+dist/
+*.tsbuildinfo
+.tools/
+.firecrawl/
+playwright-report/
+test-results/
+*.log
+docs/screenshots/signature-panel-*.png

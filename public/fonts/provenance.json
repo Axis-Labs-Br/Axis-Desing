@@ -1,0 +1,123 @@
+{
+  "fetchedAt": "2026-10-17T23:03:35.880Z",
+  "source": "https://api.fontsource.org/v1/fonts",
+  "totalApiFamilies": 2103,
+  "excludedIconFamilies": 8,
+  "textFamilies": 2095,
+  "offlineFamilies": 16,
+  "offlineFaces": 49,
+  "packages": [
+    {
+      "id": "inter",
+      "family": "Inter",
+      "npmVersion": "5.3.0",
+      "license": "OFL-1.1",
+      "licenseUrl": "https://cdn.jsdelivr.net/npm/@fontsource/inter@5.3.0/LICENSE"
+    },
+    {
+      "id": "montserrat",
+      "family": "Montserrat",
+      "npmVersion": "5.3.0",
+      "license": "OFL-1.1",
+      "licenseUrl": "https://cdn.jsdelivr.net/npm/@fontsource/montserrat@5.3.0/LICENSE"
+    },
+    {
+      "id": "poppins",
+      "family": "Poppins",
+      "npmVersion": "5.3.0",
+      "license": "OFL-1.1",
+      "licenseUrl": "https://cdn.jsdelivr.net/npm/@fontsource/poppins@5.3.0/LICENSE"
+    },
+    {
+      "id": "playfair-display",
+      "family": "Playfair Display",
+      "npmVersion": "5.3.0",
+      "license": "OFL-1.1",
+      "licenseUrl": "https://cdn.jsdelivr.net/npm/@fontsource/playfair-display@5.3.0/LICENSE"
+    },
+    {
+      "id": "roboto",
+      "family": "Roboto",
+      "npmVersion": "5.3.0",
+      "license": "OFL-1.1",
+      "licenseUrl": "https://cdn.jsdelivr.net/npm/@fontsource/roboto@5.3.0/LICENSE"
+    },
+    {
+      "id": "lato",
+      "family": "Lato",
+      "npmVersion": "5.3.0",
+      "license": "OFL-1.1",
+      "licenseUrl": "https://cdn.jsdelivr.net/npm/@fontsource/lato@5.3.0/LICENSE"
+    },
+    {
+      "id": "oswald",
+      "family": "Oswald",
+      "npmVersion": "5.3.0",
+      "license": "OFL-1.1",
+      "licenseUrl": "https://cdn.jsdelivr.net/npm/@fontsource/oswald@5.3.0/LICENSE"
+    },
+    {
+      "id": "nunito",
+      "family": "Nunito",
+      "npmVersion": "5.3.0",
+      "license": "OFL-1.1",
+      "licenseUrl": "https://cdn.jsdelivr.net/npm/@fontsource/nunito@5.3.0/LICENSE"
+    },
+    {
+      "id": "raleway",
+      "family": "Raleway",
+      "npmVersion": "5.3.0",
+      "license": "OFL-1.1",
+      "licenseUrl": "https://cdn.jsdelivr.net/npm/@fontsource/raleway@5.3.0/LICENSE"
+    },
+    {
+      "id": "merriweather",
+      "family": "Merriweather",
+      "npmVersion": "5.3.0",
+      "license": "OFL-1.1",
+      "licenseUrl": "https://cdn.jsdelivr.net/npm/@fontsource/merriweather@5.3.0/LICENSE"
+    },
+    {
+      "id": "bebas-neue",
+      "family": "Bebas Neue",
+      "npmVersion": "5.3.0",
+      "license": "OFL-1.1",
+      "licenseUrl": "https://cdn.jsdelivr.net/npm/@fontsource/bebas-neue@5.3.0/LICENSE"
+    },
+    {
+      "id": "dancing-script",
+      "family": "Dancing Script",
+      "npmVersion": "5.3.0",
+      "license": "OFL-1.1",
+      "licenseUrl": "https://cdn.jsdelivr.net/npm/@fontsource/dancing-script@5.3.0/LICENSE"
+    },
+    {
+      "id": "pacifico",
+      "family": "Pacifico",
+      "npmVersion": "5.3.0",
+      "license": "OFL-1.1",
+      "licenseUrl": "https://cdn.jsdelivr.net/npm/@fontsource/pacifico@5.3.0/LICENSE"
+    },
+    {
+      "id": "anton",
+      "family": "Anton",
+      "npmVersion": "5.3.0",
+      "license": "OFL-1.1",
+      "licenseUrl": "https://cdn.jsdelivr.net/npm/@fontsource/anton@5.3.0/LICENSE"
+    },
+    {
+      "id": "lora",
+      "family": "Lora",
+      "npmVersion": "5.3.0",
+      "license": "OFL-1.1",
+      "licenseUrl": "https://cdn.jsdelivr.net/npm/@fontsource/lora@5.3.0/LICENSE"
+    },
+    {
+      "id": "space-grotesk",
+      "family": "Space Grotesk",
+      "npmVersion": "5.3.0",
+      "license": "OFL-1.1",
+      "licenseUrl": "https://cdn.jsdelivr.net/npm/@fontsource/space-grotesk@5.3.0/LICENSE"
+    }
+  ]
+}

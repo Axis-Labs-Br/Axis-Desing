@@ -1,0 +1,392 @@
+- document:
+  - paragraph:
+    - link "Skip navigation":
+      - /url: "#_R_d6_"
+  - paragraph:
+    - link "Skip to main content":
+      - /url: "#_R_d6H1_"
+  - banner:
+    - link "Canva Developers logo":
+      - /url: https://www.canva.com/developers/
+      - img:
+        - img
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://www.canva.com/developers/
+      - listitem:
+        - button "Documentation"
+      - listitem:
+        - button "Solutions"
+      - listitem:
+        - button "Blogs"
+      - listitem:
+        - link "Your apps":
+          - /url: https://www.canva.com/developers/apps
+      - listitem:
+        - link "Your integrations":
+          - /url: https://www.canva.com/developers/integrations
+    - searchbox "Search Canva Developers SDK documentation"
+    - text: /
+    - button "Toggle theme"
+    - note:
+      - text: The Canva Apps SDK, Connect APIs, and MCP are now unified in the Canva Developers SDK.
+      - link "Learn more⁠ (opens in a new tab or window)":
+        - /url: https://community.canva.dev/t/integrations-are-becoming-part-of-apps-in-the-developer-portal-soon/8881
+      - text: .
+    - navigation:
+      - heading "Canva Developers SDK" [level=5]
+      - link "Get started":
+        - /url: /docs/apps/
+      - link "Build":
+        - /url: /docs/apps/build/
+      - link "Publish":
+        - /url: /docs/apps/app-listing-guidelines/
+      - link "Manage":
+        - /url: /docs/apps/versioning-apps/
+      - link "Reference":
+        - /url: /docs/apps/reference/
+      - link "Examples":
+        - /url: /docs/apps/examples/
+  - main:
+    - text: Apps inside Canva
+    - link "Overview":
+      - /url: /docs/apps/apps-inside-canva/
+    - link "How apps work in Canva":
+      - /url: /docs/apps/integrating-canva/
+    - link "Set up your app":
+      - /url: /docs/apps/app-configuration/
+    - text: Fundamentals
+    - link "Previewing apps":
+      - /url: /docs/apps/previewing-apps/
+    - link "Using a backend":
+      - /url: /docs/apps/using-backend/
+    - link "Bundling apps":
+      - /url: /docs/apps/bundling-apps/
+    - link "Adapt to feature context":
+      - /url: /docs/apps/feature-support/
+    - text: App intents
+    - link "Overview":
+      - /url: /docs/apps/intents/
+    - button "Design Editor"
+    - link "Overview":
+      - /url: /docs/apps/intents/design-editor/
+    - link "Implementation guide":
+      - /url: /docs/apps/intents/design-editor/implementation-guide/
+    - button "Creating elements"
+    - link "Creating app elements":
+      - /url: /docs/apps/creating-app-elements/
+    - link "Creating audio tracks":
+      - /url: /docs/apps/creating-audio-tracks/
+    - link "Creating images":
+      - /url: /docs/apps/creating-images/
+    - link "Creating image overlays":
+      - /url: /docs/apps/creating-image-overlays/
+    - link "Creating shapes":
+      - /url: /docs/apps/creating-shapes/
+    - link "Creating tables":
+      - /url: /docs/apps/creating-tables/
+    - link "Creating text":
+      - /url: /docs/apps/creating-text/
+    - link "Creating videos":
+      - /url: /docs/apps/creating-videos/
+    - link "Embedding rich media":
+      - /url: /docs/apps/embedding-rich-media/
+    - button "Working with elements"
+    - link "Grouping elements":
+      - /url: /docs/apps/grouping-elements/
+    - link "Positioning elements":
+      - /url: /docs/apps/positioning-elements/
+    - link "Supporting drag and drop":
+      - /url: /docs/apps/supporting-drag-drop/
+    - link "Using fonts":
+      - /url: /docs/apps/fonts/
+    - link "Using color selectors":
+      - /url: /docs/apps/using-color-selectors/
+    - button "Interacting with designs"
+    - link "Content Querying API":
+      - /url: /docs/apps/querying/
+    - link "Design Editing API":
+      - /url: /docs/apps/design-editing/
+    - link "Selection API":
+      - /url: /docs/apps/selection/
+    - link "Using design IDs":
+      - /url: /docs/apps/using-design-ids/
+    - link "Exporting designs":
+      - /url: /docs/apps/exporting-designs/
+    - button "Data Connector"
+    - link "Overview":
+      - /url: /docs/apps/intents/data-connector/
+    - link "Implementation guide":
+      - /url: /docs/apps/intents/data-connector/implementation-guide/
+    - button "Content Publisher"
+    - link "Overview":
+      - /url: /docs/apps/intents/content-publisher/
+    - link "Implementation guide":
+      - /url: /docs/apps/intents/content-publisher/implementation-guide/
+    - button "URL Expander"
+    - link "Overview":
+      - /url: /docs/apps/intents/url-expander/
+    - link "Implementation guide":
+      - /url: /docs/apps/intents/url-expander/implementation-guide/
+    - link "URL pattern validation rules":
+      - /url: /docs/apps/intents/url-expander/url-pattern-validation-rules/
+    - text: Development guides
+    - button "Authenticate users"
+    - link "Overview":
+      - /url: /docs/apps/authenticating-users/
+    - link "Frictionless authentication":
+      - /url: /docs/apps/authenticating-users/frictionless/
+    - button "OAuth integration"
+    - link "Overview":
+      - /url: /docs/apps/authenticating-users/oauth/
+    - link "Dynamic domains":
+      - /url: /docs/apps/authenticating-users/oauth-dynamic-domains/
+    - link "Multi-account":
+      - /url: /docs/apps/authenticating-users/oauth-multi-account/
+    - link "Multi-provider":
+      - /url: /docs/apps/authenticating-users/oauth-multi-provider/
+    - link "Troubleshooting":
+      - /url: /docs/apps/authenticating-users/oauth-troubleshooting/
+    - link "Manual authentication":
+      - /url: /docs/apps/authenticating-users/manual/
+    - link "Alternative authentication experiences":
+      - /url: /docs/apps/authenticating-users/alternative-auth-experiences/
+    - link "Handling errors":
+      - /url: /docs/apps/handling-errors/
+    - button "Prepare for localization"
+    - link "Localization overview":
+      - /url: /docs/apps/localization/
+    - link "Recommended workflow":
+      - /url: /docs/apps/localization/recommended-workflow/
+    - link "Migrate an existing app":
+      - /url: /docs/apps/localization/migrate-an-existing-app/
+    - link "Localize backend responses":
+      - /url: /docs/apps/localization/backend-responses/
+    - link "Localize outside React components":
+      - /url: /docs/apps/localization/outside-react-components/
+    - link "ICU syntax":
+      - /url: /docs/apps/localization/icu-syntax/
+    - link "Bad practices":
+      - /url: /docs/apps/localization/bad-practices/
+    - button "Securing your app"
+    - link "Cross-Origin Resource Sharing":
+      - /url: /docs/apps/cross-origin-resource-sharing/
+    - link "HTTP request verification":
+      - /url: /docs/apps/verifying-http-requests/
+    - link "JSON Web Tokens":
+      - /url: /docs/apps/verifying-jwts/
+    - link "Security guidelines":
+      - /url: /docs/apps/security-guidelines/
+    - link "Content Security Policy":
+      - /url: /docs/apps/content-security-policy/
+    - button "Test your app"
+    - link "Unit testing":
+      - /url: /docs/apps/testing/
+    - link "Test harness":
+      - /url: /docs/apps/test-harness/
+    - text: Designing your app
+    - link "Overview":
+      - /url: /docs/apps/design-guidelines/
+    - button "Design foundations" [expanded]
+    - link "Layout":
+      - /url: /docs/apps/design-guidelines/layout/
+    - link "Colors":
+      - /url: /docs/apps/design-guidelines/colors/
+    - link "Content":
+      - /url: /docs/apps/design-guidelines/content/
+    - link "Written content":
+      - /url: /docs/apps/design-guidelines/written-content/
+    - link "Typography":
+      - /url: /docs/apps/design-guidelines/typography/
+    - link "Icons":
+      - /url: /docs/apps/design-guidelines/icons/
+    - link "Spacing":
+      - /url: /docs/apps/design-guidelines/spacing/
+    - link "Accessibility":
+      - /url: /docs/apps/design-guidelines/accessibility/
+    - link "Localization":
+      - /url: /docs/apps/design-guidelines/localization/
+    - button "Design patterns"
+    - link "Alerts":
+      - /url: /docs/apps/design-guidelines/alerts/
+    - link "Authentication":
+      - /url: /docs/apps/design-guidelines/authentication/
+    - link "Color selection":
+      - /url: /docs/apps/design-guidelines/color-selection/
+    - link "Content publisher":
+      - /url: /docs/apps/design-guidelines/content-publisher/
+    - link "Content Querying API":
+      - /url: /docs/apps/design-guidelines/content-querying-api/
+    - link "Data Connector":
+      - /url: /docs/apps/design-guidelines/data-connector/
+    - link "Design Editing API":
+      - /url: /docs/apps/design-guidelines/design-editing-api/
+    - link "Drag and drop":
+      - /url: /docs/apps/design-guidelines/drag-drop/
+    - link "Empty states":
+      - /url: /docs/apps/design-guidelines/empty-states/
+    - link "Errors":
+      - /url: /docs/apps/design-guidelines/errors/
+    - link "External links":
+      - /url: /docs/apps/design-guidelines/external-links/
+    - link "Feature support":
+      - /url: /docs/apps/design-guidelines/feature-support/
+    - link "Fonts":
+      - /url: /docs/apps/design-guidelines/fonts/
+    - link "Forms":
+      - /url: /docs/apps/design-guidelines/forms/
+    - link "Loading":
+      - /url: /docs/apps/design-guidelines/loading/
+    - link "Mobile":
+      - /url: /docs/apps/design-guidelines/mobile/
+    - link "Monetization status":
+      - /url: /docs/apps/design-guidelines/monetization-status/
+    - link "Overlays":
+      - /url: /docs/apps/design-guidelines/overlays/
+    - link "Performance":
+      - /url: /docs/apps/design-guidelines/performance/
+    - link "Premium apps":
+      - /url: /docs/apps/design-guidelines/premium-apps/
+    - link "Richtext":
+      - /url: /docs/apps/design-guidelines/rich-text/
+    - link "Search":
+      - /url: /docs/apps/design-guidelines/search/
+    - link "Selection":
+      - /url: /docs/apps/design-guidelines/selection/
+    - link "Suspension":
+      - /url: /docs/apps/design-guidelines/suspension/
+    - link "Tables":
+      - /url: /docs/apps/design-guidelines/tables/
+    - link "Toasts":
+      - /url: /docs/apps/design-guidelines/toasts/
+    - button "App UI Kit"
+    - link "Overview":
+      - /url: /docs/apps/app-ui-kit/
+    - link "Quickstart":
+      - /url: /docs/apps/app-ui-kit/quickstart/
+    - link "Design tokens":
+      - /url: /docs/apps/app-ui-kit/design-tokens/
+    - link "Components":
+      - /url: /docs/apps/app-ui-kit/storybook/
+    - link "Patterns":
+      - /url: /docs/apps/app-ui-kit/storybook/?path=/docs/patterns/
+    - button "Prebuilt UI"
+    - link "SearchableListView":
+      - /url: /docs/apps/app-components/searchable-list-view/
+    - link "Changelog":
+      - /url: /docs/apps/app-components/changelog/
+    - link "Figma resource":
+      - /url: /docs/apps/figma-resource/
+    - navigation "Breadcrumb":
+      - list:
+        - listitem: Build with Canva
+        - listitem:
+          - link "Apps inside Canva":
+            - /url: /docs/apps/apps-inside-canva/
+        - listitem:
+          - link "Designing your app":
+            - /url: /docs/apps/design-guidelines/
+        - listitem: Design foundations
+    - heading "Layout" [level=1]
+    - text: Ideas and examples for creating composable and consistent layouts.
+    - button "Copy page"
+    - button
+    - paragraph: Apps are displayed in the app panel, part of the editor side panel. On desktop devices, the panel is roughly 350px wide and positioned (depending on the writing direction of the language in which you use Canva) to the left or right of the main editor. On mobile, the panel adjusts to the full width of the device.
+    - paragraph
+    - paragraph: Make sure to test your layout on devices of different widths to ensure you have appropriate text and content sizes across breakpoints, even on very narrow mobile viewports.
+    - heading "Arrange components vertically" [level=2]
+    - paragraph: Because the width of the app panel can be narrow, we recommend stacking your components in a row layout instead of a column format, which can cause a narrow space to feel even more narrow. Don't be afraid to use vertical scrolling if there's overflow.
+    - paragraph:
+      - text: The best way to do this is with the App UI Kit's
+      - code: Rows
+      - text: component.
+    - paragraph
+    - paragraph
+    - heading "Use a grid layout for images" [level=2]
+    - paragraph: One exception to the previous rule is when your app shows a gallery of images or videos. In these cases, it's best to show a grid or inline layout, with more than one gallery item per row.
+    - paragraph:
+      - text: You may wish to use the App UI Kit's
+      - code: Columns
+      - text: component for these use cases, or build your own grid layout.
+    - heading "Use full-width buttons and components" [level=2]
+    - paragraph: Using the full width of the app panel for components like buttons and text boxes helps with the visual balance of your app. It can make your app feel simpler, cleaner, and easier to scan or read.
+    - paragraph
+    - paragraph
+    - heading "Make key features easy to find" [level=2]
+    - paragraph: Position important controls where users expect them, and arrange your layout so it leads naturally to the key features. Users shouldn't have to hunt for what they need.
+    - heading "Avoid horizontal scrolling" [level=2]
+    - paragraph: UI elements may be too wide for the app's iframe, causing horizontal scrolling. Double-check to make sure there's no way for this to happen.
+    - paragraph: A subtle example of how this can happen is when an element, such as a textarea, is resizable. In these cases, constrain the max width of the element.
+    - heading "Avoid cropped elements" [level=2]
+    - paragraph: If an element doesn't cause horizontal scrolling, it may be cropped by the edges of the iframe. For example, without appropriate padding on the edges of the app, the outlines of elements may be cropped.
+    - heading "Avoid sticky elements" [level=2]
+    - paragraph: Generally speaking, avoid using sticky positioning. An exception to this rule is when it's important for an element (and the information it contains) to be visible at all times.
+    - heading "Avoid nested scrollbars" [level=2]
+    - paragraph: If an app has two or more scrollbars — one scrollbar for the iframe and additional scrollbars for elements inside the iframe — it can be a confusing and overly busy user experience.
+    - paragraph:
+      - text: To avoid nested scrollbars, take inspiration from Canva's
+      - strong: Design
+      - text: tab. This tab has scrollable elements, but only one scrollbar. This works by increasing the height of the “scrollable” element as you scroll down the page, rather than making the element itself scrollable.
+    - navigation "On this page":
+      - heading "On this page" [level=6]
+      - list:
+        - listitem:
+          - link "Arrange components vertically":
+            - /url: /docs/apps/design-guidelines/layout/#arrange-components-vertically
+        - listitem:
+          - link "Use a grid layout for images":
+            - /url: /docs/apps/design-guidelines/layout/#use-a-grid-layout-for-images
+        - listitem:
+          - link "Use full-width buttons and components":
+            - /url: /docs/apps/design-guidelines/layout/#use-full-width-buttons-and-components
+        - listitem:
+          - link "Make key features easy to find":
+            - /url: /docs/apps/design-guidelines/layout/#make-key-features-easy-to-find
+        - listitem:
+          - link "Avoid horizontal scrolling":
+            - /url: /docs/apps/design-guidelines/layout/#avoid-horizontal-scrolling
+        - listitem:
+          - link "Avoid cropped elements":
+            - /url: /docs/apps/design-guidelines/layout/#avoid-cropped-elements
+        - listitem:
+          - link "Avoid sticky elements":
+            - /url: /docs/apps/design-guidelines/layout/#avoid-sticky-elements
+        - listitem:
+          - link "Avoid nested scrollbars":
+            - /url: /docs/apps/design-guidelines/layout/#avoid-nested-scrollbars
+    - button "Ask AI"
+  - contentinfo:
+    - link "Community⁠ (opens in a new tab or window)":
+      - /url: https://community.canva.dev/
+    - link "Get Help⁠ (opens in a new tab or window)":
+      - /url: https://canva-external.atlassian.net/servicedesk/customer/portal/2/group/2
+    - link "GitHub⁠ (opens in a new tab or window)":
+      - /url: https://github.com/canva-sdks/canva-apps-sdk-starter-kit
+    - img
+    - text: Was this page useful?
+    - button "Yes"
+    - button "No"
+    - separator
+    - 'button "Region: Global"'
+    - text: © 2026 All Rights Reserved. Canva®
+    - link "Privacy policy⁠ (opens in a new tab or window)":
+      - /url: https://www.canva.com/policies/privacy-policy/
+    - link "Terms⁠ (opens in a new tab or window)":
+      - /url: https://www.canva.com/policies/
+    - link "Facebook":
+      - /url: https://www.facebook.com/canva
+      - text: ⁠ (opens in a new tab or window)
+    - link "Twitter":
+      - /url: https://x.com/canva
+      - text: ⁠ (opens in a new tab or window)
+    - link "Pinterest":
+      - /url: https://www.pinterest.com/canva
+      - text: ⁠ (opens in a new tab or window)
+    - link "Instagram":
+      - /url: https://instagram.com/canva
+      - text: ⁠ (opens in a new tab or window)
+  - text: We care about your privacy By clicking "Accept all", you agree to the storing of cookies on your device to give you the most optimal experience using our website. We may use cookies to enhance performance, analyze site usage, and personalize your experience.
+  - button "Accept all"
+  - button "Only essential"
+  - alert

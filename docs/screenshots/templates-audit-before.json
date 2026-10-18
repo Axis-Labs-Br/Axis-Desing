@@ -1,0 +1,337 @@
+{
+  "templates": 90,
+  "pages": 120,
+  "overflows": [
+    {
+      "template": "sale",
+      "page": "Novos favoritos",
+      "text": "ATÉ\n40% OFF",
+      "width": 97.00798034667969,
+      "height": 145.34,
+      "box": [
+        792,
+        699,
+        185,
+        111.8
+      ]
+    },
+    {
+      "template": "design-talk",
+      "page": "Design que conecta",
+      "text": "DESIGN\nQUE CONECTA.",
+      "width": 651.6967163085938,
+      "height": 421.6,
+      "box": [
+        74,
+        258,
+        790,
+        353.6
+      ]
+    },
+    {
+      "template": "design-talk",
+      "page": "Design que conecta",
+      "text": "ESPAÇO CRIATIVO\nRUA DAS IDEIAS, 140",
+      "width": 251.45083618164062,
+      "height": 73.71000000000001,
+      "box": [
+        82,
+        1260,
+        760,
+        70.2
+      ]
+    },
+    {
+      "template": "business",
+      "page": "Marina Costa",
+      "text": "marina@exemplo.com\n(11) 99999-0000",
+      "width": 227.54583740234375,
+      "height": 61.16,
+      "box": [
+        65,
+        480,
+        850,
+        57.2
+      ]
+    },
+    {
+      "template": "market-week",
+      "page": "Semana de ofertas",
+      "text": "ATÉ\n50% OFF",
+      "width": 89.07998657226562,
+      "height": 127.19999999999999,
+      "box": [
+        457,
+        734,
+        150,
+        104
+      ]
+    },
+    {
+      "template": "new-collection",
+      "page": "Coleção essencial",
+      "text": "PEÇAS ESSENCIAIS\nPARA TODOS OS DIAS",
+      "width": 242.56256103515625,
+      "height": 55.599999999999994,
+      "box": [
+        704,
+        858,
+        318,
+        52
+      ]
+    },
+    {
+      "template": "online-course",
+      "page": "Aprenda no seu ritmo",
+      "text": "Aulas práticas para transformar conhecimento em projetos reais.",
+      "width": 425.45977783203125,
+      "height": 74.47999999999999,
+      "box": [
+        74,
+        500,
+        540,
+        36.4
+      ]
+    },
+    {
+      "template": "online-course",
+      "page": "Aprenda no seu ritmo",
+      "text": "Conteúdo direto ao ponto.\nConhecimento para usar hoje.",
+      "width": 263.3038330078125,
+      "height": 130.64,
+      "box": [
+        742,
+        718,
+        280,
+        59.800000000000004
+      ]
+    },
+    {
+      "template": "webinar",
+      "page": "Sua próxima grande ideia",
+      "text": "ESTRATÉGIA\nCRIATIVIDADE\nPRÓXIMOS PASSOS",
+      "width": 231.98687744140625,
+      "height": 109.94,
+      "box": [
+        1280,
+        688,
+        530,
+        89.7
+      ]
+    },
+    {
+      "template": "executive-strategy-2026",
+      "page": "02 — Visão geral",
+      "text": "Ler o contexto, ouvir clientes e escolher onde concentrar energia.",
+      "width": 321.80426025390625,
+      "height": 93.84,
+      "box": [
+        130,
+        708,
+        340,
+        31.05
+      ]
+    },
+    {
+      "template": "executive-strategy-2026",
+      "page": "02 — Visão geral",
+      "text": "Direcionar recursos às oportunidades com maior potencial de valor.",
+      "width": 270.8133239746094,
+      "height": 93.84,
+      "box": [
+        575,
+        708,
+        340,
+        31.05
+      ]
+    },
+    {
+      "template": "executive-strategy-2026",
+      "page": "02 — Visão geral",
+      "text": "Definir responsáveis, ritmo de acompanhamento e entregas concretas.",
+      "width": 313.93060302734375,
+      "height": 93.84,
+      "box": [
+        1020,
+        708,
+        340,
+        31.05
+      ]
+    },
+    {
+      "template": "executive-strategy-2026",
+      "page": "02 — Visão geral",
+      "text": "Medir avanços, ajustar o plano e compartilhar o que funciona.",
+      "width": 337.348388671875,
+      "height": 60.489999999999995,
+      "box": [
+        1465,
+        708,
+        340,
+        31.05
+      ]
+    },
+    {
+      "template": "executive-strategy-2026",
+      "page": "03 — Contexto",
+      "text": "Experiências simples, relevantes e consistentes ganham espaço.",
+      "width": 361.609619140625,
+      "height": 60.489999999999995,
+      "box": [
+        132,
+        625,
+        455,
+        31.05
+      ]
+    },
+    {
+      "template": "executive-strategy-2026",
+      "page": "03 — Contexto",
+      "text": "Novos hábitos e soluções exigem atenção e capacidade de adaptação.",
+      "width": 442.02142333984375,
+      "height": 60.489999999999995,
+      "box": [
+        707,
+        625,
+        455,
+        31.05
+      ]
+    },
+    {
+      "template": "executive-strategy-2026",
+      "page": "03 — Contexto",
+      "text": "Processos claros liberam tempo para o trabalho que gera valor.",
+      "width": 405.35174560546875,
+      "height": 60.489999999999995,
+      "box": [
+        1282,
+        625,
+        455,
+        31.05
+      ]
+    },
+    {
+      "template": "executive-strategy-2026",
+      "page": "04 — Prioridades",
+      "text": "Aprimorar posicionamento, canais e qualidade da experiência.",
+      "width": 376.8778076171875,
+      "height": 61.17999999999999,
+      "box": [
+        134,
+        673,
+        455,
+        31.05
+      ]
+    },
+    {
+      "template": "executive-strategy-2026",
+      "page": "04 — Prioridades",
+      "text": "Conectar cada solução a necessidades reais e resultados claros.",
+      "width": 414.78558349609375,
+      "height": 61.17999999999999,
+      "box": [
+        714,
+        673,
+        455,
+        31.05
+      ]
+    },
+    {
+      "template": "executive-strategy-2026",
+      "page": "04 — Prioridades",
+      "text": "Reduzir atritos, fortalecer colaboração e ganhar previsibilidade.",
+      "width": 424.50299072265625,
+      "height": 61.17999999999999,
+      "box": [
+        1294,
+        673,
+        455,
+        31.05
+      ]
+    },
+    {
+      "template": "executive-strategy-2026",
+      "page": "05 — Roteiro",
+      "text": "Avaliar resultados,\nregistrar aprendizados\ne planejar o próximo ciclo.",
+      "width": 259.34307861328125,
+      "height": 91.08,
+      "box": [
+        1686,
+        670,
+        365,
+        89.10000000000001
+      ]
+    },
+    {
+      "template": "commercial-proposal-premium",
+      "page": "03 — Abordagem",
+      "text": "Imersão, pesquisa e alinhamento sobre objetivos.",
+      "width": 301.06646728515625,
+      "height": 52.599999999999994,
+      "box": [
+        128,
+        704,
+        345,
+        27
+      ]
+    },
+    {
+      "template": "commercial-proposal-premium",
+      "page": "03 — Abordagem",
+      "text": "Direção estratégica, escopo e critérios de sucesso.",
+      "width": 274.64642333984375,
+      "height": 52.599999999999994,
+      "box": [
+        573,
+        704,
+        345,
+        27
+      ]
+    },
+    {
+      "template": "commercial-proposal-premium",
+      "page": "03 — Abordagem",
+      "text": "Criação, revisão e validação com as pessoas certas.",
+      "width": 322.49639892578125,
+      "height": 52.599999999999994,
+      "box": [
+        1018,
+        704,
+        345,
+        27
+      ]
+    },
+    {
+      "template": "commercial-proposal-premium",
+      "page": "03 — Abordagem",
+      "text": "Entrega, acompanhamento e recomendações de continuidade.",
+      "width": 307.4464111328125,
+      "height": 52.599999999999994,
+      "box": [
+        1463,
+        704,
+        345,
+        27
+      ]
+    }
+  ],
+  "collisions": [
+    {
+      "template": "market-week",
+      "page": "Semana de ofertas",
+      "text": [
+        "ATÉ\n50% OFF",
+        "Frutas da estação,\npreço de feira."
+      ]
+    },
+    {
+      "template": "online-course",
+      "page": "Aprenda no seu ritmo",
+      "text": [
+        "Aprender\nmuda tudo.",
+        "01"
+      ]
+    }
+  ],
+  "missing": []
+}

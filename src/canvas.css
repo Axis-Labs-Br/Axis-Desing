@@ -1,0 +1,188 @@
+.canvas-stage {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  min-width: 0;
+  position: relative;
+  overflow: hidden;
+  background: #f0f1f5;
+}
+.canvas-workspace {
+  flex: 1;
+  min-height: 0;
+  min-width: 0;
+  overflow: auto;
+  display: flex;
+  align-items: flex-start;
+  padding: 56px;
+  touch-action: none;
+  overscroll-behavior: contain;
+  outline: none;
+}
+.canvas-workspace.stage-drawing,
+.canvas-workspace.stage-drawing .stage-canvas {
+  cursor: crosshair;
+}
+.stage-surface {
+  position: relative;
+  flex: none;
+  margin: auto;
+  isolation: isolate;
+  box-shadow:
+    0 3px 6px #20213b0b,
+    0 12px 30px #20213b12;
+  outline: 1px solid #272b3910;
+}
+.stage-context-menu {
+  position: absolute;
+  z-index: 30;
+  display: grid;
+  width: 200px;
+  padding: 6px;
+  gap: 2px;
+  border: 1px solid #e7e8ee;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 12px 36px #20213b24, 0 2px 7px #20213b10;
+  color: #29283a;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.stage-context-menu button {
+  display: grid;
+  grid-template-columns: 18px 1fr auto;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 9px;
+  gap: 9px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.stage-context-menu button:hover:not(:disabled) {
+  background: #f1eff8;
+}
+.stage-context-menu button:disabled {
+  color: #a6a6b2;
+  cursor: not-allowed;
+}
+.stage-context-menu button kbd {
+  color: #898896;
+  font-family: inherit;
+  font-size: 11px;
+  line-height: 1;
+}
+.stage-context-menu .stage-context-danger {
+  color: #d33b52;
+}
+.stage-context-menu .stage-context-danger:hover:not(:disabled) {
+  background: #fff0f2;
+}
+.stage-context-divider {
+  height: 1px;
+  margin: 3px 5px;
+  background: #ececf1;
+}
+.stage-canvas {
+  display: block;
+  overflow: visible;
+  user-select: none;
+  touch-action: none;
+}
+.stage-element {
+  cursor: move;
+}
+.stage-element-locked { cursor: pointer; }
+.stage-element-locked:hover > .stage-hitarea { stroke: #9ba4b8; stroke-dasharray: 4 3; stroke-width: 1px; vector-effect: non-scaling-stroke; }
+.stage-element:hover > .stage-hitarea {
+  stroke: #7955e880;
+  stroke-width: 1px;
+  vector-effect: non-scaling-stroke;
+}
+.stage-hitarea {
+  pointer-events: all;
+}
+.stage-selection {
+  pointer-events: none;
+}
+.stage-handle,
+.stage-rotate {
+  pointer-events: all;
+}
+.stage-control-hit {
+  pointer-events: all;
+}
+.stage-control-touch {
+  display: none;
+}
+.stage-control-dot {
+  pointer-events: none;
+}
+.stage-handle:hover .stage-control-dot,
+.stage-rotate:hover .stage-control-dot {
+  fill: #eee8ff;
+}
+@media (any-pointer: coarse) {
+  .stage-control-mouse { display: none; }
+  .stage-control-touch { display: initial; }
+}
+.stage-handle-nw,
+.stage-handle-se {
+  cursor: nwse-resize;
+}
+.stage-handle-ne,
+.stage-handle-sw {
+  cursor: nesw-resize;
+}
+.stage-handle-n,
+.stage-handle-s {
+  cursor: ns-resize;
+}
+.stage-handle-e,
+.stage-handle-w {
+  cursor: ew-resize;
+}
+.stage-rotate {
+  cursor: grab;
+}
+.stage-moving,
+.stage-moving .stage-element,
+.stage-moving .stage-rotate {
+  cursor: grabbing;
+}
+.stage-text-editor {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 2px solid #7955e8;
+  border-radius: 0;
+  background: #ffffff12;
+  resize: none;
+  overflow: auto;
+  white-space: pre-wrap;
+  overflow-wrap: normal;
+  transform-origin: center;
+  box-shadow: none;
+  min-width: 0;
+  min-height: 0;
+}
+.stage-preview {
+  background: #20212b;
+}
+.stage-preview .stage-surface {
+  box-shadow: 0 16px 55px #0004;
+}
+@media (max-width: 700px) {
+  .canvas-workspace {
+    padding: 32px;
+  }
+}

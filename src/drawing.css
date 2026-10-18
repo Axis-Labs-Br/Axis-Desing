@@ -1,0 +1,81 @@
+.floating-tools { position:absolute; z-index:8; left:14px; top:16px; width:58px; max-height:calc(100% - 32px); display:flex; flex-direction:column; color:#263244; }
+.floating-tools button { border:0; color:inherit; cursor:pointer; display:grid; place-items:center; flex:none; }
+.floating-tools button:focus-visible { outline:2px solid #5368d8; outline-offset:2px; }
+.floating-tools-close { width:32px; height:32px; border-radius:50%; background:#ffffff; border:1px solid #e2e6ef; margin:0 auto 10px; box-shadow:0 2px 8px #18203020; }
+.drawing-rail { display:flex; flex-direction:column; gap:3px; min-height:0; overflow-y:auto; overflow-x:hidden; overscroll-behavior:contain; scrollbar-width:none; background:#ffffff; border:1px solid #e2e6ef; border-radius:18px; padding:7px; box-shadow:0 6px 24px #17202f14; }
+.drawing-rail::-webkit-scrollbar { display:none; }
+.drawing-rail button { background:transparent; width:42px; height:42px; border-radius:12px; }
+.drawing-rail button:hover { background:#f2f4f9; }
+.drawing-rail button.active { color:#4054c7; background:#eef1ff; box-shadow:inset 0 0 0 1px #8b9be8; }
+.drawing-icon-pencil { color:#ff5367; }.drawing-icon-marker { color:#687386; }.drawing-icon-line { color:#28a9ff; }
+.drawing-rail-divider { width:24px; height:1px; flex:none; background:#e2e6ef; margin:4px auto; }
+.drawing-note-palette,.drawing-settings { position:absolute; top:48px; left:66px; max-height:calc(100% - 48px); overflow-y:auto; overscroll-behavior:contain; scrollbar-width:none; background:#ffffff; border:1px solid #e2e6ef; border-radius:16px; box-shadow:0 8px 28px #17202f18; }
+.drawing-note-palette { display:flex; flex-direction:column; padding:6px; gap:4px; }
+.drawing-note-palette button { width:42px; height:42px; background:transparent; border-radius:11px; }
+.drawing-note-palette button:hover,.drawing-note-palette button[aria-pressed=true] { background:#eef1ff; box-shadow:inset 0 0 0 1px #5368d8; }
+.drawing-settings { width:226px; padding:16px; }
+.drawing-settings-heading { display:flex; align-items:center; justify-content:space-between; margin-bottom:18px; font-size:13px; }
+.drawing-settings-heading button { background:transparent; width:24px; height:24px; }
+.drawing-settings label { display:flex; align-items:center; justify-content:space-between; font-size:12px; margin:12px 0; }
+.drawing-settings input[type=color] { width:34px; height:28px; padding:0; border:0; background:none; cursor:pointer; }
+.drawing-settings input[type=range] { width:100%; accent-color:#5368d8; }
+.drawing-color-presets { display:flex; gap:10px; margin-top:16px; }
+.drawing-color-presets button { width:24px; height:24px; border-radius:50%; border:1px solid #d8deea; }
+@media(min-width:721px) {
+  .floating-tools { width:64px; }
+  .drawing-note-palette,.drawing-settings { left:72px; }
+}
+.placement-hint { position:absolute; z-index:7; top:16px; left:50%; transform:translateX(-50%); display:flex; align-items:center; gap:10px; background:#fff; border:1px solid #e0e4ed; border-radius:30px; padding:8px 10px 8px 16px; box-shadow:0 3px 12px #25304112; font-size:12px; white-space:nowrap; color:#43506a; }
+.placement-hint button { background:#edf0f7; color:#43506a; border:0; border-radius:50%; width:26px; height:26px; display:grid; place-items:center; cursor:pointer; }
+.stage-placing,.stage-placing .stage-element,.stage-placing .stage-canvas { cursor:crosshair; }
+.signature-panel { width:320px; flex-basis:320px; background:#ffffff; color:#263244; border-color:#e2e6ef; }
+.signature-heading { display:flex; align-items:center; gap:10px; padding:19px 14px; flex:none; }
+.signature-heading h2 { flex:1; margin:0; font-size:15px; }
+.signature-heading button { background:transparent; border:0; color:inherit; display:grid; place-items:center; width:28px; height:28px; padding:0; }
+.signature-tabs { display:flex; flex:none; border-bottom:1px solid #e2e6ef; padding:0 14px; gap:4px; }
+.signature-tabs button { flex:1; padding:8px 0 12px; white-space:nowrap; border:0; border-bottom:3px solid transparent; background:none; color:#64748b; font-size:12px; }
+.signature-tabs button.active { color:#4054c7; border-bottom-color:#5368d8; }
+.signature-content { flex:1; min-height:0; overflow-y:auto; overscroll-behavior:contain; padding:18px; }
+.signature-preview { width:100%; height:180px; display:flex; align-items:center; justify-content:center; background:#f3f4f7; color:#748095; border-radius:12px; overflow:hidden; font-size:12px; text-align:center; }
+.signature-preview>svg { width:90%; height:80%; }
+svg.signature-pad { display:block; height:auto; aspect-ratio:600 / 240; min-height:140px; touch-action:none; cursor:crosshair; }
+.signature-pad-actions { display:flex; justify-content:space-between; gap:8px; margin-top:12px; }
+.signature-pad-actions button { background:none; color:#52617a; border:0; display:flex; gap:6px; align-items:center; padding:6px 0; font-size:11px; }
+.signature-field { display:block; margin:22px 0 0; font-size:13px; font-weight:600; }
+.signature-field input:not([type=color]),.signature-field select { display:block; width:100%; min-height:42px; background:#ffffff; color:#263244; border:1px solid #dce2ec; border-radius:9px; padding:10px 12px; margin-top:10px; font-size:13px; }
+.signature-colors { display:flex; gap:12px; margin-top:13px; align-items:center; }
+.signature-colors button { width:30px; height:30px; border:2px solid #d2d9e5; border-radius:50%; }
+.signature-colors button[aria-pressed=true] { outline:2px solid #5368d8; outline-offset:3px; }
+.signature-custom-color { width:32px; height:32px; border-radius:50%; background:conic-gradient(#ff5473,#ffdc68,#63d39f,#5f9af6,#c27af1,#ff5473); padding:5px; cursor:pointer; }
+.signature-custom-color input { display:block; width:22px; height:22px; border:0; padding:0; border-radius:50%; background:none; cursor:pointer; }
+.signature-save { display:flex; gap:10px; align-items:flex-start; margin:26px 0 18px; font-size:12px; font-weight:500; line-height:1.5; cursor:pointer; }
+.signature-save input { margin-top:3px; accent-color:#5368d8; }
+.signature-save small { display:block; color:#64748b; font-size:10px; margin-top:3px; }
+.signature-insert { width:100%; min-height:42px; display:flex; align-items:center; justify-content:center; gap:8px; }
+.signature-upload { display:flex; align-items:center; justify-content:center; gap:8px; width:100%; background:#ffffff; border:1px solid #dce2ec; color:#263244; border-radius:9px; padding:12px; margin-top:18px; font-size:12px; }
+.signature-hint { font-size:11px; line-height:1.6; color:#64748b; margin:10px 0; }
+.signature-error { color:#c3324b; font-size:12px; line-height:1.5; }
+.saved-signatures { margin-top:28px; padding-top:20px; border-top:1px solid #e2e6ef; }
+.saved-signatures h3 { font-size:12px; margin:0 0 12px; }
+.saved-signature { display:flex; align-items:center; gap:6px; margin-top:10px; }
+.saved-signature>button:first-child { flex:1; height:72px; background:#f3f4f7; border:0; border-radius:8px; padding:10px; }
+.saved-signature svg { width:100%; height:100%; }
+.saved-signature>button:last-child { color:#64748b; background:none; border:0; padding:6px; }
+@media(max-width:720px) {
+  .editor-body.panel-open .floating-tools { display:none; }
+  .floating-tools { top:auto; bottom:12px; left:50%; transform:translateX(-50%); width:calc(100% - 20px); max-width:464px; }
+  .floating-tools-close { position:absolute; right:0; top:-39px; margin:0; }
+  .drawing-rail { flex-direction:row; max-width:100%; overflow-x:auto; overflow-y:hidden; gap:1px; padding:5px; border-radius:16px; scrollbar-width:none; }
+  .drawing-rail::-webkit-scrollbar { display:none; }
+  .drawing-rail-divider { width:1px; height:22px; margin:auto 4px; flex:none; }
+  .drawing-rail button { width:40px; height:42px; }
+  .drawing-note-palette,.drawing-settings { top:auto; left:0; bottom:64px; max-height:none; }
+  .drawing-note-palette { flex-direction:row; gap:2px; }
+  .drawing-note-palette button { width:38px; height:40px; }
+  .drawing-settings { width:min(260px,calc(100vw - 48px)); }
+  .placement-hint { top:10px; font-size:10px; gap:6px; max-width:calc(100% - 24px); white-space:normal; padding:6px 8px 6px 12px; }
+  .signature-panel { width:100%; flex-basis:auto; }
+  .signature-heading { padding:8px 16px 12px; }
+  .signature-content { padding:16px 20px 24px; }
+  .signature-preview { height:140px; }
+}
