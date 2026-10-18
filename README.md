@@ -1,26 +1,59 @@
-# Axis Design
+# AxisDesign
 
-Editor visual em português para transformar ideias em posts, apresentações, stories, cartazes e outros formatos. Inclui contas com projetos privados por usuário e links de visualização. Interface e modelos originais; investigação de referências públicas do Canva feita com REA.
+**Crie posts, apresentações, cartazes, stories e outros materiais visuais em um editor simples, em português e pronto para computador e celular.** Comece com uma tela em branco, personalize um modelo ou importe um arquivo. Edite textos, fotos, formas e páginas no mesmo lugar; depois exporte o design ou compartilhe um link de visualização.
 
-## Abrir
+O AxisDesign mantém os projetos privados e separados por conta por padrão. Modelos e elementos são originais, e as fotografias, fontes e dependências de terceiros estão documentadas em [`THIRD_PARTY.md`](THIRD_PARTY.md).
 
-O servidor de desenvolvimento está em **http://127.0.0.1:4332/** enquanto esta sessão estiver ativa.
+[Baixar o projeto em ZIP](https://github.com/Axis-Labs-Br/Axis-Desing/archive/refs/heads/main.zip) · [Abrir o repositório no GitHub](https://github.com/Axis-Labs-Br/Axis-Desing)
 
-Para iniciar novamente, abra um terminal em `D:\AxisDesing`:
+![Painel inicial do AxisDesign, com formatos, modelos e projetos](docs/screenshots/dashboard.png)
 
-```powershell
+## Baixar e iniciar
+
+Você pode baixar o projeto pelo botão **Code → Download ZIP** nesta página do GitHub ou cloná-lo pelo terminal. Para clonar, instalar e iniciar o servidor de desenvolvimento:
+
+```bash
+git clone https://github.com/Axis-Labs-Br/Axis-Desing.git
+cd Axis-Desing
 npm ci
 npm run dev
 ```
 
-Requer Node.js 22.19+ e npm. Para gerar a aplicação de produção:
+Abra **http://127.0.0.1:4332** no navegador. Requisitos: **Node.js 22.19 ou superior**, npm e conexão com a internet para instalar as dependências. No primeiro uso, crie uma conta para salvar seus designs.
 
-```powershell
+Também é possível baixar o ZIP, extrair a pasta, abrir um terminal dentro dela e executar `npm ci` e `npm run dev`. Não é necessário ter Git instalado nesse caso.
+
+O servidor de desenvolvimento inclui a API de contas, projetos e compartilhamento. Os dados criados são gravados localmente em `.axis-data/`; essa pasta não vem no GitHub. Cada instalação começa com um espaço vazio e independente.
+
+### Criar uma versão de produção
+
+```bash
 npm run build
 npm run preview
 ```
 
-O resultado da interface fica em `dist/`. A API de contas também precisa rodar para login, persistência e compartilhamento; `npm run preview` inclui essa API. O servidor usa loopback por padrão.
+Abra **http://127.0.0.1:4332** para usar a versão compilada localmente. O comando de desenvolvimento ou de prévia deve permanecer rodando no terminal enquanto você usa a aplicação. Para publicar o AxisDesign na internet, hospede a interface e a API juntas e configure armazenamento persistente; `npm run preview` sozinho serve apenas para testar a versão de produção na sua máquina.
+
+## O que é possível fazer
+
+- Criar posts, stories, apresentações, cartazes, capas para YouTube, cartões, convites, materiais comerciais e outros designs personalizados.
+- Montar formulários visuais com modelos editáveis para contato, newsletter, atividades e eventos. Eles são peças de design e não coletam respostas.
+- Começar com modelos editáveis, inclusive apresentações de várias páginas com imagens de fundo, ou construir uma arte do zero.
+- Adicionar títulos, textos, fontes, fotografias, imagens enviadas, ícones vetoriais, ilustrações, formas, linhas e tabelas.
+- Recortar imagens com remoção de fundo assistida por IA e pincéis manuais para apagar ou restaurar partes; trocar, espelhar, redimensionar e arredondar imagens.
+- Criar notas adesivas que aumentam conforme o texto, desenhar com lápis e marca-texto e inserir assinaturas digitadas, desenhadas ou enviadas como imagem.
+- Organizar elementos em camadas, agrupar objetos, trabalhar com várias páginas, usar guias de alinhamento e desfazer ou refazer alterações.
+- Importar projetos `.axis`, PDF, DOCX, PPTX, ODT, TXT, Markdown, HTML, SVG e imagens. A edição possível depende dos recursos do arquivo original.
+- Exportar PNG, JPG, SVG, PDF de várias páginas ou um projeto `.axis` editável.
+- Criar conta, manter designs privados, compartilhar links de visualização e importar uma cópia de um design público para editar na própria conta.
+
+Veja [a descrição completa do projeto](docs/DESCRICAO_DO_PROJETO.md) para o guia de recursos, compatibilidade de documentos e limitações conhecidas.
+
+## Editor
+
+Os painéis de design, texto, elementos, formulários, uploads, fotografias, marca e camadas dão acesso às ferramentas sem esconder a página em edição. No celular, os painéis e a navegação se adaptam à tela sensível ao toque.
+
+![Editor do AxisDesign com painel de modelos e uma arte editável](docs/screenshots/editor.png)
 
 ## O que funciona
 
@@ -94,7 +127,7 @@ Veja [docs/VALIDATION.md](docs/VALIDATION.md) para a execução verificada e [do
 
 ## Engenharia reversa e estrutura
 
-A REA foi clonada de `morluto/rea` em `.tools/rea`. A CLI `rea-agents@6.5.0` foi executada com capturas de navegador e análise estática. Evidências, hashes, fontes e limites estão em [research/REA.md](research/REA.md). A página do Canva apresentou proteção Cloudflare; a documentação oficial acessível forneceu referências verificáveis. Nenhum código privado ou backend foi recuperado.
+A ferramenta REA e a CLI `rea-agents@6.5.0` foram usadas durante a investigação local, com capturas de navegador e análise estática. Os artefatos temporários dessa ferramenta não são necessários para instalar ou executar o AxisDesign. Evidências, fontes e limites da investigação estão em [research/REA.md](research/REA.md). A implementação do AxisDesign e seus modelos são próprios; nenhum código privado ou backend de terceiros foi recuperado.
 
 | Arquivo                   | Responsabilidade                                                   |
 | ------------------------- | ------------------------------------------------------------------ |
